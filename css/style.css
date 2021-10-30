@@ -1,0 +1,49 @@
+*
+{
+    text-transform: capitalize;
+}
+.navbar
+{
+    border-bottom: solid 4px BLACK;
+}
+header
+{
+    min-height: 100vh;
+    background-image: linear-gradient(rgb(0, 0,0,0.7),rgb(0, 0,0, 0.7)) ,
+    url(../images/home.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.carousel-item
+{
+    height: 80vh;
+    overflow: hidden;
+    text-align: center;
+}
+.card-link:hover
+{
+   background-color: var(--second-color);
+   color: white;
+ 
+}
+.card-link
+{
+    color: var(--second-color);
+    background-color: var(--first-color);
+    text-decoration: none;
+    padding: 10PX;
+    border-radius: 5PX;
+     text-align: center;
+     font-size: 22px;
+     margin: auto;
+}
+h3
+{
+    font-size: 30px ;
+    padding: 20px;
+}
+H2 
+{
+    text-align: center;
+    padding: 20px;
+}
